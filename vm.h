@@ -28,3 +28,6 @@ void confirmVersion(FILE *fp);
 Constant *readConstants(FILE *fp);
 uint8_t *readBytecode(FILE *fp);
 int run(Constant *constants, uint8_t *bytecode);
+
+void error(char *message);
+void info(char *message);
